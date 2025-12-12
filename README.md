@@ -16,11 +16,17 @@ Run RAG over case files for accurate context-driven answers
 
 # Tech Stack
 Component	Technology
+
 Frontend	Streamlit
+
 LLM / RAG	OpenAI / Local LLM + Vector DB
+
 Graph Database	Neo4j
+
 Backend Logic	Python
+
 Data Processing	LangChain / Custom pipelines
+
 Visualization	Streamlit components + Neo4j Browser
 
 # Features
