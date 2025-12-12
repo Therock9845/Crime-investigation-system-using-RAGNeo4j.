@@ -48,8 +48,8 @@ Interactive Streamlit dashboard
 Follow these steps to set up and run the project.
 
 1️⃣ Clone the Repository
-git clone <YOUR_REPO_URL>
-cd crime-investigation-system
+git clone https://github.com/Therock9845/Crime-investigation-system-using-RAGNeo4j..git
+cd crime-investigation-system-using-RAGNeo4j
 
 2️⃣ Install Python Dependencies
 
@@ -66,7 +66,7 @@ https://neo4j.com/download/
 
 Then:
 
-Create a new Database
+Create a new Database in neo4j
 
 Start the database
 
@@ -80,12 +80,20 @@ bolt://localhost:7687
 
 4️⃣ Configure Environment Variables(very important)
 
-Create a .env file in the project root:
+Create a .env file in the project root or replace values in the existing .env:
 
 NEO4J_URI=bolt://localhost:7687
 NEO4J_USERNAME=neo4j
 NEO4J_PASSWORD=
 OPENAI_API_KEY=
+OPENAI_BASE_URL=
+OPENAI_MODEL
+
+4️⃣LOCAL USAGE:
+
+Install ollama  model in your system locally.
+
+replace the LLM Provider to ollama instead of OpenAI and  do the ollama configuration.
 
 ⚠️ Important
 
